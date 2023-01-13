@@ -5,8 +5,8 @@ import {Wrapper, SignInCard, FormInput, Button, ForgotPassword, Line, NewAccount
 const SignIn = function () {
   return (
     <Wrapper flexDirection="col" alignItems="center">
-      <SignInCard flexDirection="col" col="12" alignItems="center" mb="lg">
-        <Cascadingss as="form" flexDirection="col" col="11" mb="sm" mt="md">
+      <SignInCard flexDirection="col" w="12/12" alignItems="center" mb="lg">
+        <Cascadingss as="form" flexDirection="col" w="11/12" mb="sm" mt="md">
           <FormInput as="input" type="text" name="" id="" mb="sm" placeholder="Email or phone number" />
           <FormInput as="input" type="text" name="" id="" mb="sm" placeholder="Password" />
           <Button type="button" value="Log In" />
